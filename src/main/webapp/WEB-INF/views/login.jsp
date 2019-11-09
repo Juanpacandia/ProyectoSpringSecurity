@@ -46,6 +46,8 @@
 								<input type="submit"
 									class="btn btn-block btn-primary btn-default" value="Log in">
 							</div>
+                                                        <br><br>
+                                                        <a class="btn btn-block btn-primary btn-default" href="/SpringMVCHibernateManyToManyCRUDExample/newuser">Regitrarse</a>
 						</form>
 					</div>
 				</div>
