@@ -1,6 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1" pageEncoding="ISO-8859-1"%>
 <%@ page isELIgnored="false" %>
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="sec" uri="http://www.springframework.org/security/tags"%>
 <html>
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
@@ -48,7 +49,6 @@
 		</div>
 	</div>
         <!-- //header-top -->
-    <sec:authorize access="hasRole('ADMIN')"></sec:authorize>
         <!-- header -->
         <div class="header">
 			<div class="container">
@@ -85,13 +85,9 @@
 									</ul>
 								</li>
 								<li><a href="/proyecto_AS/views/organizations" class="hvr-sweep-to-bottom">Organizaciones</a></li>
-                                        
 								<li><a href="/proyecto_AS/views/reports" class="hvr-sweep-to-bottom">¿Necesitas ayuda?</a></li>
-                                                                
-                                                                    <li><a href="/SpringMVCHibernateManyToManyCRUDExample/list" class="hvr-sweep-to-bottom">Consultar usuarios</a></li>
+                                                                    <li><a href="/SpringMVCHibernateManyToManyCRUDExample/list" class="hvr-sweep-to-bottom">Consultar </a></li>
                                                                     <li><a href="/SpringMVCHibernateManyToManyCRUDExample/list" class="hvr-sweep-to-bottom">Salir</a></li>
-				        
-                                                                
 							</ul>
 						</nav>
 					</div>
@@ -100,7 +96,7 @@
 			</div>
 	</div>
         <!--//header -->
-        <sec:authorize access="hasRole('ADMIN')"></sec:authorize>
+
         <!-- banner -->
 	<div class="main">
 		<div class="page_container">
