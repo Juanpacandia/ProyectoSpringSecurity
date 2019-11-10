@@ -1,5 +1,6 @@
 package com.websystique.springmvc.dao;
 
+import com.websystique.springmvc.model.Forum;
 import java.util.List;
 
 import org.hibernate.Criteria;
@@ -63,5 +64,47 @@ public class UserDaoImpl extends AbstractDao<Integer, User> implements UserDao {
 		User user = (User)crit.uniqueResult();
 		delete(user);
 	}
+        
+
+    /**
+     *
+     * @return
+     */
+    @SuppressWarnings("unchecked")
+        @Override
+	public List<Forum> findAllForums() {
+		Criteria criteria = createEntityCriteria().addOrder(Order.asc("id"));
+		criteria.setResultTransformer(Criteria.DISTINCT_ROOT_ENTITY);//To avoid duplicates.
+		List<Forum> forums = (List<Forum>) criteria.list();
+		
+		// No need to fetch userProfiles since we are not showing them on list page. Let them lazy load. 
+		// Uncomment below lines for eagerly fetching of userProfiles if you want.
+		/*
+		for(User user : users){
+			Hibernate.initialize(user.getUserProfiles());
+		}*/
+		return forums;
+	}
+
+        @Override
+	public void saveForum(Forum forum) {
+		persist(forum);
+	}
+
+        @Override
+	public void deleteByForum(String deletee) {
+		Criteria crit = createEntityCriteria();
+		crit.add(Restrictions.eq("id", deletee));
+		Forum  forum = (Forum)crit.uniqueResult();
+		delete(forum);
+	}
+
+    private void delete(Forum forum) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    private void persist(Forum forum) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
 
 }

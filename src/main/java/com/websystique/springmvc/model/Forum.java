@@ -1,52 +1,36 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package com.websystique.springmvc.model;
 
 import java.io.Serializable;
-import javax.persistence.Basic;
+import java.util.HashSet;
+import java.util.Set;
+
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-import javax.persistence.NamedQueries;
-import javax.persistence.NamedQuery;
+import javax.persistence.JoinColumn;
+import javax.persistence.JoinTable;
+import javax.persistence.ManyToMany;
 import javax.persistence.Table;
 import javax.validation.constraints.NotNull;
-import javax.validation.constraints.Size;
-import javax.xml.bind.annotation.XmlRootElement;
 
-/**
- *
- * @author jpcan
- */
 @Entity
 @Table(name = "forum")
-@XmlRootElement
-@NamedQueries({
-    @NamedQuery(name = "Forum.findAll", query = "SELECT f FROM Forum f")
-    , @NamedQuery(name = "Forum.findById", query = "SELECT f FROM Forum f WHERE f.id = :id")
-    , @NamedQuery(name = "Forum.findByComentary", query = "SELECT f FROM Forum f WHERE f.comentary = :comentary")
-    , @NamedQuery(name = "Forum.findByTema", query = "SELECT f FROM Forum f WHERE f.tema = :tema")})
+
 public class Forum implements Serializable {
 
     private static final long serialVersionUID = 1L;
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Basic(optional = false)
-    @Column(name = "id")
     private Integer id;
-    @Basic(optional = false)
+
     @NotNull
-    @Size(min = 1, max = 45)
     @Column(name = "comentary")
     private String comentary;
-    @Basic(optional = false)
+
     @NotNull
-    @Size(min = 1, max = 45)
     @Column(name = "tema")
     private String tema;
 
@@ -109,7 +93,8 @@ public class Forum implements Serializable {
 
     @Override
     public String toString() {
-        return "com.websystique.springmvc.model.Forum[ id=" + id + " ]";
+        return "com.websystique.springmvc.model.Forum[ id=" + id + ", comentary=" + comentary
+				+ ", tema=" + tema + "]";
     }
     
 }

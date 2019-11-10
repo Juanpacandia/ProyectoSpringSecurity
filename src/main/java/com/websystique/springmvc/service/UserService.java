@@ -1,5 +1,6 @@
 package com.websystique.springmvc.service;
 
+import com.websystique.springmvc.model.Forum;
 import java.util.List;
 
 import com.websystique.springmvc.model.User;
@@ -20,5 +21,7 @@ public interface UserService {
 	List<User> findAllUsers(); 
 	
 	boolean isUserSSOUnique(Integer id, String sso);
+        
+        List<Forum> findAllForums(); 
 
 }

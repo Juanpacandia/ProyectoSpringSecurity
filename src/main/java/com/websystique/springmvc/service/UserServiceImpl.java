@@ -1,5 +1,6 @@
 package com.websystique.springmvc.service;
 
+import com.websystique.springmvc.dao.ForumDao;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -8,6 +9,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import com.websystique.springmvc.dao.UserDao;
+import com.websystique.springmvc.model.Forum;
 import com.websystique.springmvc.model.User;
 
 
@@ -73,6 +75,11 @@ public class UserServiceImpl implements UserService{
 	public boolean isUserSSOUnique(Integer id, String sso) {
 		User user = findBySSO(sso);
 		return ( user == null || ((id != null) && (user.getId() == id)));
+	}
+        
+        @Override
+	public List<Forum> findAllForums() {
+		return dao.findAllForums();
 	}
 	
 }
