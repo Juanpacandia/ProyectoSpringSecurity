@@ -13,8 +13,6 @@ import org.springframework.stereotype.Repository;
 
 import com.websystique.springmvc.model.User;
 
-
-
 @Repository("userDao")
 public class UserDaoImpl extends AbstractDao<Integer, User> implements UserDao {
 
@@ -70,7 +68,6 @@ public class UserDaoImpl extends AbstractDao<Integer, User> implements UserDao {
      *
      * @return
      */
-    @SuppressWarnings("unchecked")
         @Override
 	public List<Forum> findAllForums() {
 		Criteria criteria = createEntityCriteria().addOrder(Order.asc("id"));
@@ -85,26 +82,5 @@ public class UserDaoImpl extends AbstractDao<Integer, User> implements UserDao {
 		}*/
 		return forums;
 	}
-
-        @Override
-	public void saveForum(Forum forum) {
-		persist(forum);
-	}
-
-        @Override
-	public void deleteByForum(String deletee) {
-		Criteria crit = createEntityCriteria();
-		crit.add(Restrictions.eq("id", deletee));
-		Forum  forum = (Forum)crit.uniqueResult();
-		delete(forum);
-	}
-
-    private void delete(Forum forum) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-
-    private void persist(Forum forum) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
 
 }

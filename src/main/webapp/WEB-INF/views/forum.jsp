@@ -29,6 +29,7 @@
 				<c:forEach items="${forums}" var="forum">
 					<tr>
 						<td>${forum.id}</td>
+                                                <td>hola</td>
 					</tr>
 				</c:forEach>
 	    		</tbody>

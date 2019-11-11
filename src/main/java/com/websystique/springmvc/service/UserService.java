@@ -1,5 +1,6 @@
 package com.websystique.springmvc.service;
 
+
 import com.websystique.springmvc.model.Forum;
 import java.util.List;
 

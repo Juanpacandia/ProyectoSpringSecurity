@@ -76,7 +76,6 @@ public class AppController {
         
         @RequestMapping(value = {"/forum" }, method = RequestMethod.GET)
 	public String listForum(ModelMap model) {
-
 		List<Forum> forums = userService.findAllForums();
 		model.addAttribute("forums", forums);
 		return "forum";

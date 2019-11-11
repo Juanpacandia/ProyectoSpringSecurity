@@ -19,7 +19,8 @@ public class UserServiceImpl implements UserService{
 
 	@Autowired
 	private UserDao dao;
-
+        private ForumDao forodao;
+        
 	@Autowired
     private PasswordEncoder passwordEncoder;
 	
@@ -79,7 +80,7 @@ public class UserServiceImpl implements UserService{
         
         @Override
 	public List<Forum> findAllForums() {
-		return dao.findAllForums();
+		return forodao.findAllForums();
 	}
 	
 }

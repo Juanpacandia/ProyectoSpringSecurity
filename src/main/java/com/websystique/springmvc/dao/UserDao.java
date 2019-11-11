@@ -1,8 +1,7 @@
 package com.websystique.springmvc.dao;
 
-import com.websystique.springmvc.model.Forum;
 import java.util.List;
-
+import com.websystique.springmvc.model.Forum;
 import com.websystique.springmvc.model.User;
 
 
@@ -17,10 +16,6 @@ public interface UserDao {
 	void deleteBySSO(String sso);
 	
 	List<User> findAllUsers();
-	
-	void saveForum(Forum forum);
-	
-	void deleteByForum(String forum);
 	
 	List<Forum> findAllForums();
 }

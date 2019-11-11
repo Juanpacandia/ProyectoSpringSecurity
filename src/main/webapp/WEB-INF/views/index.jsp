@@ -72,7 +72,7 @@
 							<ul class="nav navbar-nav">
 								<li class="active"><a href="/proyecto_AS">Inicio</a></li>
 								<li><a href="/proyecto_AS/views/ODS" class="hvr-sweep-to-bottom">ODS</a></li>
-								<li><a href="/proyecto_AS/views/forum" class="hvr-sweep-to-bottom">Foro</a></li>
+								<li><a href="/SpringMVCHibernateManyToManyCRUDExample/forum" class="hvr-sweep-to-bottom">Foro</a></li>
 								<li><a href="#" class="dropdown-toggle hvr-sweep-to-bottom" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Temas<span class="caret"></span></a>
 									<ul class="dropdown-menu">
 										<li><a class="hvr-sweep-to-bottom" href="/proyecto_AS/views/sustainableDevelopment">¿Que es el desarollo sostenible?</a></li>
