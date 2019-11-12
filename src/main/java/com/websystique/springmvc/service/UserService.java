@@ -24,5 +24,13 @@ public interface UserService {
 	boolean isUserSSOUnique(Integer id, String sso);
         
         List<Forum> findAllForums(); 
+        
+        Forum findByIdForum(int id);
+        
+        void saveForum(Forum forum);
+	
+	void updateForum(Forum forum);
+	
+	void deleteForum(int id);
 
 }

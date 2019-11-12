@@ -92,17 +92,25 @@ public class AppController {
 		model.addAttribute("loggedinuser", getPrincipal());
 		return "registration";
 	}
+        
+        @RequestMapping(value = { "/newforum" }, method = RequestMethod.GET)
+	public String newForum(ModelMap model) {
+		Forum forum = new Forum();
+		model.addAttribute("forum", forum);
+		model.addAttribute("edit", false);
+		return "NewForum";
+	}
 
 	/**
 	 * This method will be called on form submission, handling POST request for
 	 * saving user in database. It also validates the user input
 	 */
-	@RequestMapping(value = { "/newuser" }, method = RequestMethod.POST)
-	public String saveUser(@Valid User user, BindingResult result,
+	@RequestMapping(value = { "/newforum" }, method = RequestMethod.POST)
+	public String saveForum(@Valid Forum forum, BindingResult result,
 			ModelMap model) {
 
 		if (result.hasErrors()) {
-			return "registration";
+			return "NewForum";
 		}
 
 		/*
@@ -113,16 +121,10 @@ public class AppController {
 		 * framework as well while still using internationalized messages.
 		 * 
 		 */
-		if(!userService.isUserSSOUnique(user.getId(), user.getSsoId())){
-			FieldError ssoError =new FieldError("user","ssoId",messageSource.getMessage("non.unique.ssoId", new String[]{user.getSsoId()}, Locale.getDefault()));
-		    result.addError(ssoError);
-			return "registration";
-		}
 		
-		userService.saveUser(user);
+		userService.saveForum(forum);
 
-		model.addAttribute("success", "User " + user.getFirstName() + " "+ user.getLastName() + " registered successfully");
-		model.addAttribute("loggedinuser", getPrincipal());
+		model.addAttribute("success", "Forum" + forum.getComentary() + " "+ forum.getTema() + " registered successfully");
 		//return "success";
 		return "registrationsuccess";
 	}
@@ -139,6 +141,37 @@ public class AppController {
 		model.addAttribute("loggedinuser", getPrincipal());
 		return "registration";
 	}
+        
+        @RequestMapping(value = { "/edit-forum-{id}" }, method = RequestMethod.GET)
+	public String editForum(@PathVariable int id, ModelMap model) {
+		Forum forum = userService.findByIdForum(id);
+		model.addAttribute("forum", forum);
+		model.addAttribute("edit", true);
+		return "NewForum";
+	}
+        
+        @RequestMapping(value = { "/edit-forum-{id}" }, method = RequestMethod.POST)
+	public String updateForum(@Valid Forum forum, BindingResult result,
+			ModelMap model, @PathVariable int id) {
+
+		if (result.hasErrors()) {
+			return "NewForum";
+		}
+
+		/*//Uncomment below 'if block' if you WANT TO ALLOW UPDATING SSO_ID in UI which is a unique key to a User.
+		if(!userService.isUserSSOUnique(user.getId(), user.getSsoId())){
+			FieldError ssoError =new FieldError("user","ssoId",messageSource.getMessage("non.unique.ssoId", new String[]{user.getSsoId()}, Locale.getDefault()));
+		    result.addError(ssoError);
+			return "registration";
+		}*/
+
+
+		userService.updateForum(forum);
+
+		model.addAttribute("success", "Forum" + forum.getComentary() + " "+ forum.getTema() + "updated successfully");
+		return "registrationsuccess";
+	}
+
 	
 	/**
 	 * This method will be called on form submission, handling POST request for
@@ -175,6 +208,12 @@ public class AppController {
 	public String deleteUser(@PathVariable String ssoId) {
 		userService.deleteUserBySSO(ssoId);
 		return "redirect:/list";
+	}
+        
+        @RequestMapping(value = { "/delete-user-{id}" }, method = RequestMethod.GET)
+	public String deleteForum(@PathVariable int id) {
+		userService.deleteForum(id);
+		return "redirect:/forum";
 	}
 	
 
