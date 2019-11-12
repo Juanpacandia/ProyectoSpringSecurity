@@ -40,7 +40,7 @@ public class ForumDaoImpl extends AbstractDao<Integer , Forum> implements ForumD
     @Override
     public void deleteForum(int id) {
         Criteria crit = createEntityCriteria();
-	crit.add(Restrictions.eq("id", id));
+	crit.add(Restrictions.eq("Id", id));
 	Forum forum = (Forum)crit.uniqueResult();
 	delete(forum);
     }

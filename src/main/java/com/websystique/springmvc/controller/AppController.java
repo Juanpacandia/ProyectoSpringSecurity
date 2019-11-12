@@ -155,21 +155,12 @@ public class AppController {
 			ModelMap model, @PathVariable int id) {
 
 		if (result.hasErrors()) {
-			return "NewForum";
+			return "forum";
 		}
-
-		/*//Uncomment below 'if block' if you WANT TO ALLOW UPDATING SSO_ID in UI which is a unique key to a User.
-		if(!userService.isUserSSOUnique(user.getId(), user.getSsoId())){
-			FieldError ssoError =new FieldError("user","ssoId",messageSource.getMessage("non.unique.ssoId", new String[]{user.getSsoId()}, Locale.getDefault()));
-		    result.addError(ssoError);
-			return "registration";
-		}*/
-
-
 		userService.updateForum(forum);
 
 		model.addAttribute("success", "Forum" + forum.getComentary() + " "+ forum.getTema() + "updated successfully");
-		return "registrationsuccess";
+		return "forum";
 	}
 
 	
