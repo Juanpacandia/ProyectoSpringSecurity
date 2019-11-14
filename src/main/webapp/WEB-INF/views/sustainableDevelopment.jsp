@@ -151,7 +151,7 @@
                     </ul>
                 </div>
                 <div class="col-md-4 hidden-xs hidden-sm">
-                    <img src="../resources/imagenes/desarrollo.jpg" class="img-center img-fluid" alt="">
+                    <img src="static/imagenes/desarrollo.jpg" class="img-center img-fluid" alt="">
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-12">
                     <ul class="features-right">
@@ -194,7 +194,7 @@
                     <h2 align="left"><br>Sostenibilidad ambiental</h2>
                 </div>
                 <p> 
-                <img src="../resources/imagenes/ambiental.PNG" align="right"><br><br>La sostenibilidad ambiental es el equilibrio que se genera a través de la relación armónica entre la sociedad y la naturaleza que lo rodea y de la cual es parte. Esta implica lograr resultados de desarrollo sin amenazar las fuentes de nuestros recursos  naturales y sin comprometer los de las futuras generaciones. En ese sentido, es importante considerar que el aspecto ambiental, más allá de tratarse de un área concreta del desarrollo humano, es en realidad el eje de cualquier forma de desarrollo a la que queramos aspirar.<br><br>
+                <img src="static/imagenes/ambiental.PNG" align="right"><br><br>La sostenibilidad ambiental es el equilibrio que se genera a través de la relación armónica entre la sociedad y la naturaleza que lo rodea y de la cual es parte. Esta implica lograr resultados de desarrollo sin amenazar las fuentes de nuestros recursos  naturales y sin comprometer los de las futuras generaciones. En ese sentido, es importante considerar que el aspecto ambiental, más allá de tratarse de un área concreta del desarrollo humano, es en realidad el eje de cualquier forma de desarrollo a la que queramos aspirar.<br><br>
                 Las personas: toma de conciencia y control de los hábitos de consumo que impactan (o pueden impactar) negativamente a la naturaleza e incluso a nosotros mismos.<br><br>
                 Las instituciones base como el hogar y la escuela: ambas instituciones, como espacios de formación,  tienen la misión de ser despertar el interés y respeto por la vida y la naturaleza; de ahí que la formación de la conciencia ambiental sea una de sus principales labores y aportes para conseguir el equilibrio ambiental.<br><br>
                 La comunidad y los medios de comunicación social informan, educan y pueden generar reflexión y conciencia en la gente, por eso deben fortalecer los mensajes dados desde el hogar y las escuelas con el fin de crear un frente común que sostenga las prácticas ambientales positivas. Así, no sólo deben promover el cumplimiento de las mismas, sino también la creación de nuevas y mejores formas a partir de las cuales los seres humanos podamos relacionarnos con nuestro planeta. Es clave que los medios de comunicación presenten información y reflexionen sobre el cambio climático para darle relevancia en la agenda ciudadana y política del país, sin caer en predicciones catastróficas, pero sí en un llamado de atención sobre el estado de vulnerabilidad de nuestro país.
@@ -213,7 +213,7 @@
                         <h2 align="left"><br>Sostenibilidad social</h2>
                     </div>
                 <p> 
-                    <img src="../resources/imagenes/social.jpg" align="left"><br><br>El primer objetivo de la sustentabilidad social es perseguir la equidad, que significa proponerse la eliminación de la pobreza y de que todos los estratos sociales se beneficien de las virtudes del crecimiento económico.<br><br>
+                    <img src="static/imagenes/social.jpg" align="left"><br><br>El primer objetivo de la sustentabilidad social es perseguir la equidad, que significa proponerse la eliminación de la pobreza y de que todos los estratos sociales se beneficien de las virtudes del crecimiento económico.<br><br>
                                                                                  El desafío para alcanzar la sustentabilidad social implica satisfacer las necesidades básicas del individuo, establecidas en los principios generales de los tratados internacionales sobre los derechos humanos.<br><br>
                                                                                  En particular, el concepto de sustentabilidad social implica impulsar acciones que permitan el cumplimiento de los derechos económicos, políticos, culturales, equidad de géneros y de razas entre las personas que habitan las diversas regiones del planeta.<br><br>
                                                                                  De esta manera, la idea de sustentabilidad social signfica ejercer el derecho de vivir en un contexto en que se puedan expresar las potencialidades de cada individuo y la posibilidad de los ciudadanos de interactuar en los procesos electivos.<br>
@@ -232,7 +232,7 @@
                         <h2 align="left"><br>Sostenibilidad social</h2>
                     </div>
                 <p> 
-                    <img src="../resources/imagenes/economica.jpg" align="right"><br><br>Una sociedad del bienestar se logra bajo un contexto de sostenibilidad económica, que asegure un crecimiento económico equitativo, que beneficie a todos y que brinde a la población las oportunidades para que pueda ser feliz. Además, es importante tener presente que el crecimiento económico es una condición necesaria para generar bienestar pero no suficiente por sí mismo.<br><br>
+                    <img src="static/imagenes/economica.jpg" align="right"><br><br>Una sociedad del bienestar se logra bajo un contexto de sostenibilidad económica, que asegure un crecimiento económico equitativo, que beneficie a todos y que brinde a la población las oportunidades para que pueda ser feliz. Además, es importante tener presente que el crecimiento económico es una condición necesaria para generar bienestar pero no suficiente por sí mismo.<br><br>
                                                                                          El crecimiento económico se logra a través de una economía donde se generen condiciones para posibilitar la productividad y la competitividad. La economía debe ser abierta al mundo a través de acuerdos comerciales negociados justamente y protegiendo el interés nacional. El entorno debe permitir que el individuo pueda tomar sus propias decisiones, donde se faciliten las condiciones para crear, mantener y concretar negocios. En este sentido, el Estado debe promover el desarrollo de empresas, cadenas productivas eficientes, investigación y desarrollo y asegurar derechos de propiedad para promover la inversión  y otorgar estabilidad jurídica. Bajo este contexto se generan condiciones que posibilitan un crecimiento económico sostenido y esto permite la creación de puestos de trabajo caracterizados por su dignidad y productividad.<br><br>
                         
                 </p>

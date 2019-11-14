@@ -8,17 +8,21 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 	<title>User Registration Form</title>
-	<link href="<c:url value='/static/css/bootstrap.css' />" rel="stylesheet"></link>
-	<link href="<c:url value='/static/css/app.css' />" rel="stylesheet"></link>
+	<link href="<c:url value='/static/css/bootstrap.css' />" rel="stylesheet">
+	<link href="<c:url value='/static/css/app.css' />" rel="stylesheet">
+        <script src="https://www.google.com/recaptcha/api.js?render=_reCAPTCHA_site_key"></script>
 </head>
 
 <body>
+    
  	<div class="generic-container">
 		<%@include file="authheader.jsp" %>
 
 		<div class="well lead">User Registration Form</div>
 	 	<form:form method="POST" modelAttribute="user" class="form-horizontal">
 			<form:input type="hidden" path="id" id="id"/>
+                        
+                       
 			
 			<div class="row">
 				<div class="form-group col-md-12">
@@ -86,7 +90,7 @@
 					</div>
 				</div>
 			</div>
-	
+
 			<div class="row">
 				<div class="form-group col-md-12">
 					<label class="col-md-3 control-lable" for="userProfiles">Roles</label>
@@ -98,6 +102,24 @@
 					</div>
 				</div>
 			</div>
+                        
+                        <div class="row">
+				<div class="form-group col-md-12">
+					<label class="col-md-3 control-lable" for="userProfiles">Captcha</label>
+					<div class="col-md-7">
+						<script src="https://www.google.com/recaptcha/api.js?render=_reCAPTCHA_site_key"></script>
+                                                        <script>
+                                                        grecaptcha.ready(function() {
+                                                            grecaptcha.execute('_reCAPTCHA_site_key_', {action: 'homepage'}).then(function(token) {
+                                                               ...
+                                                            });
+                                                        });
+                                                        </script>
+						</div>
+					</div>
+				</div>
+			</div>
+                                                
 	
 			<div class="row">
 				<div class="form-actions floatRight">

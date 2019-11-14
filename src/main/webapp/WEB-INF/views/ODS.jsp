@@ -105,7 +105,7 @@
         </div>
         <div>
             <p> 
-                <img src="../resources/imagenes/ODS.jpg" align="right"><br><br>Los Objetivos de Desarrollo Sostenible, también conocidos como Objetivos Mundiales, se<br>
+                <img src="static/imagenes/ODS.jpg" align="right"><br><br>Los Objetivos de Desarrollo Sostenible, también conocidos como Objetivos Mundiales, se<br>
                         adoptaron por todos los Estados Miembros en 2015 como un llamado universal para poner<br> 
                         fin a la pobreza, proteger el planeta y garantizar que todas las personas gocen de paz y<br>
                         prosperidad para 2030.<br><br>
@@ -124,7 +124,7 @@
         <div>
             <h3>¿CUÁL ES LA FUNCIÓN DEL PNUD?</h3><br><br>
             <p>
-                <img src="../resources/imagenes/PNUD1.PNG" align="left">
+                <img src="static/imagenes/PNUD1.PNG" align="left">
                 Como principal organismo de las Naciones Unidas para el desarrollo, el PNUD tiene una<br>
                 posición única para ayudar a implementar los Objetivos a través de nuestro trabajo en unos<br>
                 170 países y territorios.<br><br>
@@ -147,7 +147,7 @@
 			<div class="agileits-banner-bottom">
 				<div class="col-md-3 agileits-banner-bottom-grid">
 					<div class="services-grid1">
-						<a title="Objetivo1" href="https://www.undp.org/content/undp/es/home/sustainable-development-goals/goal-1-no-poverty.html"><img src="../resources/imagenes/objetivo 1.PNG" alt="Los Tejos" /></a>
+						<a title="Objetivo1" href="https://www.undp.org/content/undp/es/home/sustainable-development-goals/goal-1-no-poverty.html"><img src="static/imagenes/objetivo 1.PNG" alt="Los Tejos" /></a>
                                                 <div class="services-grid-left agile-services-grid-left">
 							<h4>Objetivo 1: Fin de la pobreza</h4>
 						</div>
@@ -156,7 +156,7 @@
 				<div class="col-md-3 agileits-banner-bottom-grid">
 					<div class="services-grid1">
 						
-                                                    <a title="Objetivo2" href="https://www.undp.org/content/undp/es/home/sustainable-development-goals/goal-2-zero-hunger.html"><img src="../resources/imagenes/objetivo 2.PNG" alt="Los Tejos" /></a>
+                                                    <a title="Objetivo2" href="https://www.undp.org/content/undp/es/home/sustainable-development-goals/goal-2-zero-hunger.html"><img src="static/imagenes/objetivo 2.PNG" alt="Los Tejos" /></a>
 						
 						<div class="services-grid-left agile-services-grid-left">
 							<h4>Objetivo 2: Hambre cero</h4>							
@@ -166,7 +166,7 @@
                             <div class="col-md-3 agileits-banner-bottom-grid">
 					<div class="services-grid1">
 						
-                                                    <a title="Objetivo3" href="https://www.undp.org/content/undp/es/home/sustainable-development-goals/goal-3-good-health-and-well-being.html"><img src="../resources/imagenes/objetivo 3.PNG" alt="Los Tejos" /></a>
+                                                    <a title="Objetivo3" href="https://www.undp.org/content/undp/es/home/sustainable-development-goals/goal-3-good-health-and-well-being.html"><img src="static/imagenes/objetivo 3.PNG" alt="Los Tejos" /></a>
 						
 						<div class="services-grid-left agile-services-grid-left">
 							<h4>Objetivo 3: Salud y bienestar</h4>							
@@ -175,7 +175,7 @@
 				</div>
 				<div class="col-md-3 agileits-banner-bottom-grid">
 					<div class="services-grid1">						
-                                                    <a title="Objetivo4" href="https://www.undp.org/content/undp/es/home/sustainable-development-goals/goal-4-quality-education.html"><img src="../resources/imagenes/objetivo 4.PNG" alt="Los Tejos" /></a>
+                                                    <a title="Objetivo4" href="https://www.undp.org/content/undp/es/home/sustainable-development-goals/goal-4-quality-education.html"><img src="static/imagenes/objetivo 4.PNG" alt="Los Tejos" /></a>
 						<div class="services-grid-left agile-services-grid-left">
 							<h4>Objetivo 4: Educación de calidad</h4>							
 						</div>
@@ -186,7 +186,7 @@
                         <div class="agileits-banner-bottom">
 				<div class="col-md-3 agileits-banner-bottom-grid">
 					<div class="services-grid1">
-						<a title="Objetivo5" href="https://www.undp.org/content/undp/es/home/sustainable-development-goals/goal-5-gender-equality.html"><img src="../resources/imagenes/objetivo 5.PNG" alt="Los Tejos" /></a>
+						<a title="Objetivo5" href="https://www.undp.org/content/undp/es/home/sustainable-development-goals/goal-5-gender-equality.html"><img src="static/imagenes/objetivo 5.PNG" alt="Los Tejos" /></a>
                                                 <div class="services-grid-left agile-services-grid-left">
 							<h4>Objetivo 5: Igualdad de género</h4>							
 						</div>
@@ -194,7 +194,7 @@
 				</div>
 				<div class="col-md-3 agileits-banner-bottom-grid">
 					<div class="services-grid1">						
-                                                    <a title="Objetivo6" href="https://www.undp.org/content/undp/es/home/sustainable-development-goals/goal-6-clean-water-and-sanitation.html"><img src="../resources/imagenes/objetivo 6.PNG" alt="Los Tejos" /></a>
+                                                    <a title="Objetivo6" href="https://www.undp.org/content/undp/es/home/sustainable-development-goals/goal-6-clean-water-and-sanitation.html"><img src="static/imagenes/objetivo 6.PNG" alt="Los Tejos" /></a>
 						<div class="services-grid-left agile-services-grid-left">
 							<h4>Objetivo 6: Agua limpia y saneamiento</h4>							
 						</div>
@@ -202,7 +202,7 @@
 				</div>
                             <div class="col-md-3 agileits-banner-bottom-grid">
 					<div class="services-grid1">						
-                                                    <a title="Objetivo7" href="https://www.undp.org/content/undp/es/home/sustainable-development-goals/goal-7-affordable-and-clean-energy.html"><img src="../resources/imagenes/objetivo 7.PNG" alt="Los Tejos" /></a>						
+                                                    <a title="Objetivo7" href="https://www.undp.org/content/undp/es/home/sustainable-development-goals/goal-7-affordable-and-clean-energy.html"><img src="static/imagenes/objetivo 7.PNG" alt="Los Tejos" /></a>						
 						<div class="services-grid-left agile-services-grid-left">
 							<h4>Objetivo 7: Energía no asequible y no contaminable</h4>							
 						</div>
@@ -210,7 +210,7 @@
 				</div>
 				<div class="col-md-3 agileits-banner-bottom-grid">
 					<div class="services-grid1">						
-                                                    <a title="Objetivo8" href="https://www.undp.org/content/undp/es/home/sustainable-development-goals/goal-8-decent-work-and-economic-growth.html"><img src="../resources/imagenes/objetivo 8.PNG" alt="Los Tejos" /></a>						
+                                                    <a title="Objetivo8" href="https://www.undp.org/content/undp/es/home/sustainable-development-goals/goal-8-decent-work-and-economic-growth.html"><img src="static/imagenes/objetivo 8.PNG" alt="Los Tejos" /></a>						
 						<div class="services-grid-left agile-services-grid-left">
 							<h4>Objetivo 8: Trabajo decente y crecimiento económico</h4>							
 						</div>
@@ -221,7 +221,7 @@
                         <div class="agileits-banner-bottom">
 				<div class="col-md-3 agileits-banner-bottom-grid">
 					<div class="services-grid1">
-						<a title="Objetivo9" href="https://www.undp.org/content/undp/es/home/sustainable-development-goals/goal-9-industry-innovation-and-infrastructure.html"><img src="../resources/imagenes/objetivo 9.PNG" alt="Los Tejos" /></a>
+						<a title="Objetivo9" href="https://www.undp.org/content/undp/es/home/sustainable-development-goals/goal-9-industry-innovation-and-infrastructure.html"><img src="static/imagenes/objetivo 9.PNG" alt="Los Tejos" /></a>
                                                 <div class="services-grid-left agile-services-grid-left">
 							<h4>Objetivo 9: Industria, innovación e infraestructura</h4>
 						</div>
@@ -229,7 +229,7 @@
 				</div>
 				<div class="col-md-3 agileits-banner-bottom-grid">
 					<div class="services-grid1">						
-                                                    <a title="Objetivo10" href="https://www.undp.org/content/undp/es/home/sustainable-development-goals/goal-10-reduced-inequalities.html"><img src="../resources/imagenes/objetivo 10.PNG" alt="Los Tejos" /></a>						
+                                                    <a title="Objetivo10" href="https://www.undp.org/content/undp/es/home/sustainable-development-goals/goal-10-reduced-inequalities.html"><img src="static/imagenes/objetivo 10.PNG" alt="Los Tejos" /></a>						
 						<div class="services-grid-left agile-services-grid-left">
 							<h4>Objetivo 10: Reducción de las desigualdades</h4>							
 						</div>
@@ -237,7 +237,7 @@
 				</div>
                             <div class="col-md-3 agileits-banner-bottom-grid">
 					<div class="services-grid1">						
-                                                    <a title="Objetivo11" href="https://www.undp.org/content/undp/es/home/sustainable-development-goals/goal-11-sustainable-cities-and-communities.html"><img src="../resources/imagenes/objetivo 11.PNG" alt="Los Tejos" /></a>						
+                                                    <a title="Objetivo11" href="https://www.undp.org/content/undp/es/home/sustainable-development-goals/goal-11-sustainable-cities-and-communities.html"><img src="static/imagenes/objetivo 11.PNG" alt="Los Tejos" /></a>						
 						<div class="services-grid-left agile-services-grid-left">
 							<h4>Objetivo 11: Ciudades y comunidades sostenibles</h4>							
 						</div>
@@ -245,7 +245,7 @@
 				</div>
 				<div class="col-md-3 agileits-banner-bottom-grid">
 					<div class="services-grid1">						
-                                                    <a title="Objetivo12" href="https://www.undp.org/content/undp/es/home/sustainable-development-goals/goal-12-responsible-consumption-and-production.html"><img src="../resources/imagenes/objetivo 12.PNG" alt="Los Tejos" /></a>						
+                                                    <a title="Objetivo12" href="https://www.undp.org/content/undp/es/home/sustainable-development-goals/goal-12-responsible-consumption-and-production.html"><img src="static/imagenes/objetivo 12.PNG" alt="Los Tejos" /></a>						
 						<div class="services-grid-left agile-services-grid-left">
 							<h4>Objetivo 12: Producción y consumo responsable</h4>							
 						</div>
@@ -256,7 +256,7 @@
                         <div class="agileits-banner-bottom">
 				<div class="col-md-3 agileits-banner-bottom-grid">
 					<div class="services-grid1">
-						<a title="Objetivo13" href="https://www.undp.org/content/undp/es/home/sustainable-development-goals/goal-13-climate-action.html"><img src="../resources/imagenes/objetivo 13.PNG" alt="Los Tejos" /></a>
+						<a title="Objetivo13" href="https://www.undp.org/content/undp/es/home/sustainable-development-goals/goal-13-climate-action.html"><img src="static/imagenes/objetivo 13.PNG" alt="Los Tejos" /></a>
                                                 <div class="services-grid-left agile-services-grid-left">
 							<h4>Objetivo 13: Acción por el clima</h4>
 						</div>
@@ -264,7 +264,7 @@
 				</div>
 				<div class="col-md-3 agileits-banner-bottom-grid">
 					<div class="services-grid1">						
-                                                    <a title="Objetivo14" href="https://www.undp.org/content/undp/es/home/sustainable-development-goals/goal-14-life-below-water.html"><img src="../resources/imagenes/objetivo 14.PNG" alt="Los Tejos" /></a>
+                                                    <a title="Objetivo14" href="https://www.undp.org/content/undp/es/home/sustainable-development-goals/goal-14-life-below-water.html"><img src="static/imagenes/objetivo 14.PNG" alt="Los Tejos" /></a>
 						<div class="services-grid-left agile-services-grid-left">
 							<h4>Objetivo 14: Vida submarina</h4>							
 						</div>
@@ -272,7 +272,7 @@
 				</div>
                             <div class="col-md-3 agileits-banner-bottom-grid">
 					<div class="services-grid1">						
-                                                    <a title="Objetivo15" href="https://www.undp.org/content/undp/es/home/sustainable-development-goals/goal-15-life-on-land.html"><img src="../resources/imagenes/objetivo 15.PNG" alt="Los Tejos" /></a>
+                                                    <a title="Objetivo15" href="https://www.undp.org/content/undp/es/home/sustainable-development-goals/goal-15-life-on-land.html"><img src="static/imagenes/objetivo 15.PNG" alt="Los Tejos" /></a>
 						<div class="services-grid-left agile-services-grid-left">
 							<h4>Objetivo 15: Vida de ecosistemas terrestres</h4>							
 						</div>
@@ -280,7 +280,7 @@
 				</div>
 				<div class="col-md-3 agileits-banner-bottom-grid">
 					<div class="services-grid1">						
-                                                    <a title="Objetivo16" href="https://www.undp.org/content/undp/es/home/sustainable-development-goals/goal-16-peace-justice-and-strong-institutions.html"><img src="../resources/imagenes/objetivo 16.PNG" alt="Los Tejos" /></a>						
+                                                    <a title="Objetivo16" href="https://www.undp.org/content/undp/es/home/sustainable-development-goals/goal-16-peace-justice-and-strong-institutions.html"><img src="static/imagenes/objetivo 16.PNG" alt="Los Tejos" /></a>						
 						<div class="services-grid-left agile-services-grid-left">
 							<h4>Objetivo 16: Paz, justicia e instituciones sólidas</h4>							
 						</div>
@@ -290,7 +290,7 @@
 			</div>
                             <div class="col-md-3 agileits-banner-bottom-grid">
 					<div class="services-grid1">						
-                                                    <a title="Objetivo17" href="https://www.undp.org/content/undp/es/home/sustainable-development-goals/goal-17-partnerships-for-the-goals.html"><img src="../resources/imagenes/objetivo 17.PNG" alt="Los Tejos" /></a>						
+                                                    <a title="Objetivo17" href="https://www.undp.org/content/undp/es/home/sustainable-development-goals/goal-17-partnerships-for-the-goals.html"><img src="static/imagenes/objetivo 17.PNG" alt="Los Tejos" /></a>						
 						<div class="services-grid-left agile-services-grid-left">
 							<h4>Objetivo 17: Alianza para lograr los objetivos</h4>							
 						</div>
