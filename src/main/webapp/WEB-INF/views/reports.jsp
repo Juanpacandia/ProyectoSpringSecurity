@@ -42,5 +42,5 @@
                 <a href="/SpringMVCHibernateManyToManyCRUDExample/index">volver</a>
    	</div>
                 
-</body>
+    </body>
 </html>

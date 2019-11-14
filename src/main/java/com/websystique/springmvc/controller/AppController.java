@@ -80,6 +80,47 @@ public class AppController {
 		model.addAttribute("forums", forums);
 		return "forum";
 	}
+        
+        @RequestMapping(value = {"/ODS" }, method = RequestMethod.GET)
+	public String ODS(ModelMap model) {
+		return "ODS";
+	}
+        
+        @RequestMapping(value = {"/sustainableDevelopment" }, method = RequestMethod.GET)
+	public String susteinableDevelopment(ModelMap model) {
+		return "sustainableDevelopment";
+	}
+        
+        @RequestMapping(value = {"/sustainableDiversity" }, method = RequestMethod.GET)
+	public String sustainableDiversity(ModelMap model) {
+		return "sustainableDiversity";
+	}
+        
+        @RequestMapping(value = {"/sustainableGenerViolence" }, method = RequestMethod.GET)
+	public String sustainableGenerViolence(ModelMap model) {
+		return "sustainableGenerViolence";
+	}
+        
+        @RequestMapping(value = {"/sustainableLives" }, method = RequestMethod.GET)
+	public String sustainableLives(ModelMap model) {
+		return "sustainableLives";
+	}
+        
+        @RequestMapping(value = {"/sustainablePeaceCulture" }, method = RequestMethod.GET)
+	public String sustainablePeaceCulture(ModelMap model) {
+		return "sustainablePeaceCulture";
+	}
+        
+        @RequestMapping(value = {"/sustainableRights" }, method = RequestMethod.GET)
+	public String sustainableRights(ModelMap model) {
+		return "sustainableRights";
+	}
+        
+        @RequestMapping(value = {"/reports" }, method = RequestMethod.GET)
+	public String reports(ModelMap model) {
+		return "reports";
+	}
+        
 
 	/**
 	 * This method will provide the medium to add a new user.
