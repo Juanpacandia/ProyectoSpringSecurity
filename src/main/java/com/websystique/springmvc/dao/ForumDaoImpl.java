@@ -16,7 +16,7 @@ public class ForumDaoImpl extends AbstractDao<Integer , Forum> implements ForumD
     @SuppressWarnings("unchecked")
     @Override
     public List<Forum> findAllForums() {
-        Criteria criteria = createEntityCriteria().addOrder(Order.asc("comentary"));
+        Criteria criteria = createEntityCriteria().addOrder(Order.asc("id"));
         List<Forum> forums = (List<Forum>) criteria.list();
         return forums;
     } 
@@ -39,10 +39,10 @@ public class ForumDaoImpl extends AbstractDao<Integer , Forum> implements ForumD
 
     @Override
     public void deleteForum(int id) {
-        Criteria crit = createEntityCriteria();
-	crit.add(Restrictions.eq("Id", id));
-	Forum forum = (Forum)crit.uniqueResult();
-	delete(forum);
+                    Criteria crit = createEntityCriteria();
+                    crit.add(Restrictions.eq("id", id));
+                    Forum forum = (Forum)crit.uniqueResult();
+                    delete(forum);
     }
 
 

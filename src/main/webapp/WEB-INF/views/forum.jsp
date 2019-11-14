@@ -7,9 +7,9 @@
 
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-	<title></title>
-	<link href="<c:url value='/static/css/bootstrap.css' />" rel="stylesheet"></link>
-	<link href="<c:url value='/static/css/app.css' />" rel="stylesheet"></link>
+	<title>Users List</title>
+	<link href="<c:url value='/static/css/bootstrap.css' />" rel="stylesheet">
+	<link href="<c:url value='/static/css/app.css' />" rel="stylesheet">
 </head>
 
 <body>
@@ -21,26 +21,31 @@
 			<table class="table table-hover">
 	    		<thead>
 		      		<tr>
+				        <th>Tema</th>
 				        <th>Comentario</th>
-				        <th>tema</th>
+				        <sec:authorize access="hasRole('ADMIN') or hasRole('USER')">
+				        	<th width="100"></th>
+				        </sec:authorize>
+				        <sec:authorize access="hasRole('ADMIN')">
+				        	<th width="100"></th>
+				        </sec:authorize>
+				        
 					</tr>
 		    	</thead>
 	    		<tbody>
 				<c:forEach items="${forums}" var="forum">
 					<tr>
-						<td>${forum.id}</td>
-                                                <td>${forum.comentary}</td>
+						<td>${forum.tema}</td>
+						<td>${forum.comentary}</td>
                                                 <td><a href="<c:url value='/edit-forum-${forum.id}' />" class="btn btn-success custom-width">edit</a></td>
                                                 <td><a href="<c:url value='/delete-forum-${forum.id}' />" class="btn btn-danger custom-width">delete</a></td>
 					</tr>
-                                        
 				</c:forEach>
 	    		</tbody>
 	    	</table>
-                        
 		</div>
-                <a href="/SpringMVCHibernateManyToManyCRUDExample/index">volver</a>
+                <a href="/SpringMVCHibernateManyToManyCRUDExample/index">volver</a><br><br>
+                <a href="/SpringMVCHibernateManyToManyCRUDExample/newforum">Agregar nuevo comentario</a>
    	</div>
-                
 </body>
 </html>

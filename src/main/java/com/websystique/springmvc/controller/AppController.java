@@ -153,21 +153,11 @@ public class AppController {
 		if (result.hasErrors()) {
 			return "NewForum";
 		}
-
-		/*
-		 * Preferred way to achieve uniqueness of field [sso] should be implementing custom @Unique annotation 
-		 * and applying it on field [sso] of Model class [User].
-		 * 
-		 * Below mentioned peace of code [if block] is to demonstrate that you can fill custom errors outside the validation
-		 * framework as well while still using internationalized messages.
-		 * 
-		 */
 		
 		userService.saveForum(forum);
 
 		model.addAttribute("success", "Forum" + forum.getComentary() + " "+ forum.getTema() + " registered successfully");
-		//return "success";
-		return "registrationsuccess";
+		return "index";
 	}
 
 
@@ -200,8 +190,9 @@ public class AppController {
 		}
 		userService.updateForum(forum);
 
-		model.addAttribute("success", "Forum" + forum.getComentary() + " "+ forum.getTema() + "updated successfully");
-		return "forum";
+		model.addAttribute("success", "Forum" + forum.getId() + " "+ forum.getComentary() + "updated successfully");
+		model.addAttribute("loggedinuser", getPrincipal());
+                return "index";
 	}
 
 	
@@ -242,10 +233,10 @@ public class AppController {
 		return "redirect:/list";
 	}
         
-        @RequestMapping(value = { "/delete-user-{id}" }, method = RequestMethod.GET)
+        @RequestMapping(value = { "/delete-forum-{id}" }, method = RequestMethod.GET)
 	public String deleteForum(@PathVariable int id) {
 		userService.deleteForum(id);
-		return "redirect:/forum";
+		return "index";
 	}
 	
 
