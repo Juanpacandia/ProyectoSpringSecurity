@@ -10,7 +10,7 @@
 	<title>User Registration Form</title>
 	<link href="<c:url value='/static/css/bootstrap.css' />" rel="stylesheet">
 	<link href="<c:url value='/static/css/app.css' />" rel="stylesheet">
-        <script src="https://www.google.com/recaptcha/api.js?render=_reCAPTCHA_site_key"></script>
+        <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </head>
 
 <body>
@@ -103,25 +103,8 @@
 				</div>
 			</div>
                         
+                        <div class="g-recaptcha" data-sitekey="6LdAxMIUAAAAAMf7YD-jvwJ8lWYywRqoB4t2kJO5"></div>
                         <div class="row">
-				<div class="form-group col-md-12">
-					<label class="col-md-3 control-lable" for="userProfiles">Captcha</label>
-					<div class="col-md-7">
-						<script src="https://www.google.com/recaptcha/api.js?render=_reCAPTCHA_site_key"></script>
-                                                        <script>
-                                                        grecaptcha.ready(function() {
-                                                            grecaptcha.execute('_reCAPTCHA_site_key_', {action: 'homepage'}).then(function(token) {
-                                                               ...
-                                                            });
-                                                        });
-                                                        </script>
-						</div>
-					</div>
-				</div>
-			</div>
-                                                
-	
-			<div class="row">
 				<div class="form-actions floatRight">
 					<c:choose>
 						<c:when test="${edit}">
@@ -134,6 +117,10 @@
 				</div>
 			</div>
 		</form:form>
-	</div>
+			</div>
+                                                
+	
+			
+	
 </body>
 </html>

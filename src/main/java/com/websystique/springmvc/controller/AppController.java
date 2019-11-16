@@ -194,7 +194,6 @@ public class AppController {
 		model.addAttribute("loggedinuser", getPrincipal());
                 return "index";
 	}
-
 	
 	/**
 	 * This method will be called on form submission, handling POST request for
