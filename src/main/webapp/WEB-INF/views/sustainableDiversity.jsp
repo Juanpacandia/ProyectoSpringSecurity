@@ -98,5 +98,31 @@
 			</div>
 	</div>
         <!--//header -->
+        <div id="features" class="section lb">
+        <div class="container">
+            <div class="section-title text-center">
+                <h1><br>¿Qué es la Diversidad cultural?</h1>
+                <p><br><br>Diversidad cultural es un principio que reconoce y legitima las diferencias culturales entre diversos grupos humanos, así como la existencia, convivencia e interacción entre diferentes culturas dentro de un mismo espacio geográfico.<br>
+A través de la diversidad cultural se pueden apreciar las diferentes expresiones culturales propias de un pueblo, país o región que, a su vez, han sido modificadas o afectadas por las expresiones culturales provenientes de otros territorios gracias a diversos factores.<br>
+Por ello, se puede afirmar que la diversidad cultural posee la cualidad de aceptar y compartir, de manera recíproca, características propias de una u otra cultura en un espacio geográfico en particular.<br>
+Por tanto, el concepto de diversidad cultural está íntimamente relacionado con los significados de identidad cultural, interculturalidad y multiculturalidad, que implican el contacto entre diversas lenguas, etnias, religiones, expresiones artísticas, valores, gastronomías, cosmovisiones, entre otros. </p>
+            </div>
+        </div>
+            <div>
+            <p> 
+                <h2>Causas de la diversidad cultural</h2>
+                <img src="static/imagenes/diversidad.jpg" align="right"><br><br>La construcción de una cultura de paz y desarrollo sostenible es uno de los objetivos principales del mandato de la UNESCO. La formación y la investigación para el desarrollo sostenible están entre sus prioridades, así como la educación para los derechos humanos, las competencias en materia de relaciones pacíficas, la buena gobernanza, la memoria del Holocausto, la prevención de conflictos y la consolidación de la paz.
+                Desde 1945, la UNESCO promueve el derecho a la educación de calidad y los avances científicos aplicados al desarrollo de los conocimientos y capacidades requeridos para lograr el progreso económico y social y alcanzar la paz y el desarrollo sostenible.                                                          
+                La cooperación internacional se fomenta a través de programas para gestionar espacios transfronterizos tales como los sitios del patrimonio mundial, las reservas de biosfera, los geoparques y los recursos hídricos transfronterizos, además de los programas como ?Agua para la Paz? o ?Del conflicto potencial al potencial de cooperación? (PCCP). Las ONU designó a la UNESCO coordinadora del Año Internacional de la cooperación en la esfera del agua (2013)(link is external), destinado a promover una cooperación más estrecha entre los países para dar respuesta al incremento de la demanda de acceso al agua, al reparto de los recursos y a los servicios de abastecimiento.          
+            </p>
+        </div>
+        </div>
+        	<!-- footer -->
+	<div class="footer">
+		<div class="copyright">
+			<p>© 2019 Desarrollo Sostenible. All rights reserved</p>
+		</div>
+	</div>
+	<!-- //footer -->  
     </body>
 </html>

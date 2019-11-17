@@ -98,6 +98,31 @@
 			</div>
 	</div>
         <!--//header -->
-        <h1>Hello World!</h1>
+        <center>
+        <div>           
+            <br><h3>Cultura de Paz y No Violencia</h3><br>
+        </div>
+        <div>
+            <p> 
+                <img src="static/imagenes/culturadepaz.jpg" align="right"><br><br>La construcción de una cultura de paz y desarrollo sostenible es uno de los objetivos principales del mandato de la UNESCO. La formación y la investigación para el desarrollo sostenible están entre sus prioridades, así como la educación para los derechos humanos, las competencias en materia de relaciones pacíficas, la buena gobernanza, la memoria del Holocausto, la prevención de conflictos y la consolidación de la paz.
+                Desde 1945, la UNESCO promueve el derecho a la educación de calidad y los avances científicos aplicados al desarrollo de los conocimientos y capacidades requeridos para lograr el progreso económico y social y alcanzar la paz y el desarrollo sostenible.                                                          
+                La cooperación internacional se fomenta a través de programas para gestionar espacios transfronterizos tales como los sitios del patrimonio mundial, las reservas de biosfera, los geoparques y los recursos hídricos transfronterizos, además de los programas como ?Agua para la Paz? o ?Del conflicto potencial al potencial de cooperación? (PCCP). Las ONU designó a la UNESCO coordinadora del Año Internacional de la cooperación en la esfera del agua (2013)(link is external), destinado a promover una cooperación más estrecha entre los países para dar respuesta al incremento de la demanda de acceso al agua, al reparto de los recursos y a los servicios de abastecimiento.          
+            </p>
+        </div><br><br><br><br>
+            <p>
+                <img src="static/imagenes/culturadepaz2.png" align="left">
+                        Varios proyectos internacionales establecidos bajo los auspicios de la UNESCO tratan de impulsar la solidaridad y la paz en Oriente Medio gracias a la cooperación científica. Cabe destacar el proyecto SESAME (Centro Internacional de Radiaciones de Sincrotrón para Ciencias Experimentales y Aplicadas), que es uno de los institutos de investigación más ambiciosos de Oriente Medio, y la Organización Israelo-Palestina para la Ciencia (IPSO).
+                        En el ámbito de la ciencia, gracias a su mandato intergubernamental y su composición universal, la UNESCO concentra sus actividades en las preocupaciones a escala mundial que requieren la colaboración de varios países, como los problemas de gestión de recursos de agua dulce, la salud de los océanos, el cambio climático, las energías renovables, la prevención de los desastres naturales, la pérdida de biodiversidad, y el refuerzo de capacidades en ciencia, tecnología e innovación.
+                        Asimismo, se considera que el conocimiento de los derechos y las libertades es una herramienta fundamental que garantiza el respeto de los derechos de todos. El Programa Mundial para la educación en Derechos Humanos(link is external) guía el trabajo de la UNESCO en esta materia.
+                        Preocupada por el avance del racismo, la xenofobia y la intolerancia, la UNESCO considera que la educación es esencial para fortalecer los fundamentos de la tolerancia y reducir la discriminación y la violencia. El 18 de enero de 2012 vio la luz el proyecto ?Enseñar el respeto para todos?, una iniciativa conjunta de la UNESCO, los Estados Unidos de América y Brasil que trata de concebir un marco pedagógico para luchar contra el racismo y fomentar la tolerancia adaptable al contexto y las necesidades de cada país.
+                        La UNESCO reconoce igualmente la necesidad de enseñar las lecciones del Holocausto para cimentar el respeto de los derechos humanos, las libertades fundamentales y valores como la tolerancia y el respeto mutuo. Se anima a los Estados Miembros de la Organización de las Naciones Unidas a elaborar programas educativos que transmitan la memoria del Holocausto a las generaciones futuras para evitar que el genocidio se repita. La UNESCO pone a disposición herramientas pedagógicas y una plataforma educativa para que los centros docentes, los profesores, los estudiantes y otras partes interesadas tengan acceso a los recursos educativos para perpetuar la memoria del Holocausto.
+        </center>
+    	<!-- footer -->
+	<div class="footer">
+		<div class="copyright">
+			<p>© 2019 Desarrollo Sostenible. All rights reserved</p>
+		</div>
+	</div>
+	<!-- //footer -->  
     </body>
 </html>

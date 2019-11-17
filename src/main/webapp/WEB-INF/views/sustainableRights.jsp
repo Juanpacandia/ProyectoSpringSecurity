@@ -100,17 +100,17 @@
         <!--//header -->
         <center>
         <div>           
-                <h3>¿QUÉ SON LOS DERECHOS HUMANOS?</h3><br><br>
+            <br><h3>¿QUÉ SON LOS DERECHOS HUMANOS?</h3><br><br>
         </div>
         <div>
             <p> 
-                <img src="static/imagenes/ODS.jpg" align="right"><br><br>Los derechos humanos son derechos inherentes a todos los seres humanos, sin distinción alguna de raza, sexo, nacionalidad, origen étnico, lengua, religión o cualquier otra condición. Entre los derechos humanos se incluyen el derecho a la vida y a la libertad; a no estar sometido ni a esclavitud ni a torturas; a la libertad de opinión y de expresión; a la educación y al trabajo, entre otros muchos. Estos derechos corresponden a todas las personas, sin discriminación alguna.<br><br><br><br>
+                <img src="static/imagenes/derechoshumanos.png" align="right"><br><br>Los derechos humanos son derechos inherentes a todos los seres humanos, sin distinción alguna de raza, sexo, nacionalidad, origen étnico, lengua, religión o cualquier otra condición. Entre los derechos humanos se incluyen el derecho a la vida y a la libertad; a no estar sometido ni a esclavitud ni a torturas; a la libertad de opinión y de expresión; a la educación y al trabajo, entre otros muchos. Estos derechos corresponden a todas las personas, sin discriminación alguna.<br><br><br><br>
             </p>
         </div>
         <div>
             <h3>Derecho internacional de los derechos humanos</h3><br><br>
             <p>
-                <img src="static/imagenes/PNUD1.PNG" align="left">
+                <img src="static/imagenes/derechos.jpg" align="left">
                 El derecho internacional de los derechos humanos establece la obligación de los Gobiernos a actuar de una manera determinada o abstenerse de emprender ciertas acciones, para promover y proteger los derechos humanos y las libertades fundamentales de los individuos o de los grupos.
                 Uno de los grandes logros de las Naciones Unidas es la creación de una normativa integral sobre los derechos humanos: un código protegido a nivel universal e internacional al que todas las naciones pueden adherirse y al que toda persona aspira. Las Naciones Unidas han definido un amplio abanico de derechos aceptados internacionalmente, entre los que se encuentran derechos de carácter civil, cultural, económico, político y social. También han establecido mecanismos para promover y proteger estos derechos y para ayudar a los Estados a ejercer sus responsabilidades.
                 Los cimientos de este cuerpo normativo se encuentran en la Carta de las Naciones Unidas y en la Declaración Universal de los Derechos Humanos, aprobadas por la Asamblea General en 1945 y 1948, respectivamente. Desde entonces, las Naciones Unidas han ido ampliando el derecho de los derechos humanos para incluir normas específicas relacionadas con las mujeres, los niños, las personas con discapacidad, las minorías y otros grupos vulnerables, que ahora poseen derechos que los protegen frente a la discriminación que durante mucho tiempo ha sido común dentro de numerosas sociedades.             
@@ -157,10 +157,10 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-md-4 hidden-xs hidden-sm">
-                    <img src="static/imagenes/desarrollo.jpg" class="img-center img-fluid" alt="">
+                <div class="col-md-4 hidden-xs hidden-sm"><br>
+                    <img src="static/imagenes/derechosani.jpg" class="img-center img-fluid" alt="">
                 </div>
-                <div class="col-lg-4 col-md-4 col-sm-12">
+                <div class="col-lg-7 col-md-4 col-sm-11">
                     <ul class="features-right">
                             <div class="fr-inner text-center">
                                 <h2>Derechos civiles y políticos</h2>

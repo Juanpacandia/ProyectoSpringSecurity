@@ -121,6 +121,11 @@ public class AppController {
 		return "reports";
 	}
         
+        @RequestMapping(value = {"/sustainableWorlds" }, method = RequestMethod.GET)
+	public String sustainableWorlds(ModelMap model) {
+		return "sustainableWorld";
+	}
+        
 
 	/**
 	 * This method will provide the medium to add a new user.
