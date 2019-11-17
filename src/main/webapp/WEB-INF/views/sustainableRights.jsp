@@ -128,28 +128,31 @@
                 <div class="col-lg-4 col-md-4 col-sm-12">
                     <ul class="features-left">
                             <div class="fl-inner text-center">
-                                <h2>Ventajas</h2>                            
+                                <h2>Derechos económicos, sociales y culturales</h2>                            
                             </div>
                         </li>
                         <li class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.3s">
                             <i class="flaticon-windows"></i>
                             <div class="fl-inner">
-                                <h4>Reactivar el crecimiento</h4>
-                                <p>Principalmente en los casos de los países en desarrollo, donde está la mayor parte de la pobreza del mundo, la satisfacción de las necesidades esenciales</p>
+                                <h4>El Pacto Internacional de Derechos Económicos, Sociales y Culturales entró en vigor en 1976 y, a finales de octubre de 2016, ya contaba con 164 Estados parte. Entre los derechos humanos que este Pacto busca promover y proteger se encuentran:</h4>
                             </div>
                         </li>
                         <li class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.4s">
                             <i class="flaticon-price-tag"></i>
                             <div class="fl-inner">
-                                <h4>Atender a las necesidades humanas</h4>
-                                <p>Esenciales de empleo, alimento, energía, saneamiento del agua son necesidades básicas cuya atención debe ser buscada con prioridad.</p>
+                                <p>el derecho a trabajar en unas condiciones justas y favorables;</p>
                             </div>
                         </li>
                         <li class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.5s">
                             <i class="flaticon-new-file"></i>
                             <div class="fl-inner">
-                                <h4>Easy to Customize</h4>
-                                <p>Más que un beneficio es señalado como una de las metas del desarrollo, también es comprendido Como una obligación moral de las generaciones presentes.</p>
+                                <p>el derecho a la protección social, a un nivel de vida adecuado y al disfrute del más alto nivel posible de salud física y mental;</p>
+                            </div>
+                        </li>
+                        <li>
+                            <i></i>
+                            <div>
+                                <p>el derecho a la educación y a gozar de los beneficios derivados de la libertad cultural y el progreso científico.</p>
                             </div>
                         </li>
                     </ul>
@@ -160,27 +163,18 @@
                 <div class="col-lg-4 col-md-4 col-sm-12">
                     <ul class="features-right">
                             <div class="fr-inner text-center">
-                                <h2>Desventajas</h2>
+                                <h2>Derechos civiles y políticos</h2>
                             </div>
                         <li class="wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.3s">
                             <i class="flaticon-cloud-computing"></i>
                             <div class="fr-inner">
-                                <h4>Costos.</h4>
-                                <p>A pesar de que las intenciones son buenas, llevarlas a cabo cuesta trabajo porque se trata de reducir o prescindir completamente de energía que ya abastece a una parte de la población por otra nueva </p>
+                                <h4>El Pacto Internacional de Derechos Civiles y Políticos y su primer Protocolo Facultativo entraron en vigor en 1976. Este Pacto contaba con 167 Estados parte a finales de 2010. El Segundo Protocolo Facultativo fue aprobado en 1989.</h4>
                             </div>
                         </li>
                         <li class="wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.4s">
                             <i class="flaticon-line-graph"></i>
                             <div class="fr-inner">
-                                <h4>Desempleo en algunas áreas.</h4>
-                                <p>Los cambios para preservar y cuidar los ecosistemas y la biodiversidad puede hacer que varias industrias tengan que reducir sus actividades. </p>
-                            </div>
-                        </li>
-                        <li class="wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
-                            <i class="flaticon-coding"></i>
-                            <div class="fr-inner">
-                                <h4>Más requisitos.</h4>
-                                <p>Las empresas, plantas, fabricas y demás responsables de afectar el ambiente tendrían más requisitos para funcionar, como reducir sus emisiones de dióxido de carbono. </p>
+                                <p>Este bloque de derechos incluye el derecho a la vida; a no ser sometido o sometida a torturas, ni a penas o tratos inhumanos o degradantes, a  esclavitud o servidumbre, ni a trabajo forzoso; el derecho a la libertad y seguridad personal; el derecho de las personas a circular libremente por su país y a salir de cualquier país incluso el propio; el derecho a la no discriminación e igual protección ante la ley.</p>
                             </div>
                         </li>
                     </ul>
