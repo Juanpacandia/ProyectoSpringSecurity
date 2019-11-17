@@ -37,7 +37,6 @@
 					<tr>
 						<td>${forum.tema}</td>
 						<td>${forum.comentary}</td>
-                                                <td><a href="<c:url value='/edit-forum-${forum.id}' />" class="btn btn-success custom-width">edit</a></td>
                                                 <td><a href="<c:url value='/delete-forum-${forum.id}' />" class="btn btn-danger custom-width">delete</a></td>
 					</tr>
 				</c:forEach>
